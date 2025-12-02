@@ -19,7 +19,7 @@ const dataWarung = [
     },
     {
         "kd_produk": "A003",
-        "nm_brg": "Minyal Goreng 1L",
+        "nm_brg": "Minyak Goreng 1L",
         "hrg": "14000",
         "ket_stok": "ada"
     }
@@ -27,7 +27,7 @@ const dataWarung = [
 ];
 
 app.get('/', (req, res) => {
-    res.send('Selamat Datang di Warung!');
+    res.send('Selamat Datang di Warung!, untuk melihat data bisa /api/warung');
 });
 
 app.get('/api/warung', (req, res) => {
